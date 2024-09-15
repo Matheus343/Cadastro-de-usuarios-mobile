@@ -1,0 +1,168 @@
+import {
+    Alert,
+    StyleSheet,
+    Text,
+    TextInput,
+    TouchableOpacity,
+    View,
+  } from "react-native";
+
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#442D4A',
+      alignItems: 'right',
+      justifyContent: 'right',
+    },
+    titulo_principal: {
+        fontSize: 20,
+        color: '#fff',
+        backgroundColor: '#000',
+        padding: 30,
+        marginLeft: 10,
+        borderRadius: 30,
+        paddingHorizontal: 120,
+        width: '120%',
+
+    },
+    label_id:{
+        color: '#fff',
+        fontSize: 24,
+        width: '120%',
+        marginTop: 30,
+        marginLeft: 15,
+        fontStyle: "italic"
+    },
+    caixa_id: {
+        padding: 5,
+        backgroundColor: '#000',
+        borderRadius: 30,
+        alignItems: 'left',
+        justifyContent: 'left',
+        marginTop: 8,
+        marginRight: 90,
+        color: '#fff',
+    },
+    label_nome:{
+      color: '#fff',
+      fontSize: 24,
+      width: '120%',
+      marginTop: 30,
+      marginLeft: 10,
+      fontStyle: "italic"
+  },
+    caixa_nome: {
+        padding: 5,
+        backgroundColor: '#000',
+        borderRadius: 30,
+        alignItems: 'left',
+        justifyContent: 'left',
+        marginTop: 6,
+        marginRight: 90,
+        color: '#fff',
+  },
+    label_email:{
+      color: '#fff',
+      fontSize: 24,
+      width: '120%',
+      marginTop: 30,
+      marginLeft: 10,
+      fontStyle: "italic"
+  },
+    caixa_email: {
+        padding: 5,
+        backgroundColor: '#000',
+        borderRadius: 30,
+        alignItems: 'left',
+        justifyContent: 'left',
+        marginTop: 6,
+        marginRight: 90,
+        color: '#fff',
+  },
+    label_senha:{
+      color: '#fff',
+      fontSize: 24,
+      width: '120%',
+      marginTop: 30,
+      marginLeft: 10,
+      fontStyle: "italic"
+  },
+    caixa_senha: {
+        padding: 5,
+        backgroundColor: '#000',
+        borderRadius: 30,
+        alignItems: 'left',
+        justifyContent: 'left',
+        marginTop: 6,
+        marginRight: 90,
+        color: '#fff',
+  },
+    label_confirmar_senha:{
+      color: '#fff',
+      fontSize: 24,
+      width: '120%',
+      marginTop: 30,
+      marginLeft: 10,
+      fontStyle: "italic"
+  },
+    caixa_confirmar_senha: {
+        padding: 5,
+        backgroundColor: '#000',
+        borderRadius: 30,
+        alignItems: 'left',
+        justifyContent: 'left',
+        marginTop: 6,
+        marginRight: 90,
+        color: '#fff',
+  },
+    botaoSalvar: {
+      width: "30%",
+      height: 40,
+      borderRadius: 45,
+      backgroundColor: "#568561",
+      marginTop: 20,
+      flexDirection: "row",
+      color: '#fff',
+      padding: 10,
+      justifyContent: 'space-around',
+      textAlign: "center",
+      alignSelf: "center",
+
+    },
+    botaoCarregar: {
+      width: "30%",
+      height: 40,
+      borderRadius: 45,
+      backgroundColor: "#606a8a",
+      marginTop: 25,
+      color: '#fff',
+      padding: 10,
+      flexDirection: "row",
+      justifyContent: 'space-around',
+      textAlign: "center",
+      alignSelf: "center",
+    },
+    botaoLimpar: {
+      width: "10%",
+      height: 40,
+      borderRadius: 45,
+      backgroundColor: "#606a8a",
+      marginTop: 25,
+      color: '#fff',
+      padding: 10,
+      flexDirection: "row",
+      justifyContent: 'space-around',
+      textAlign: "center",
+      alignSelf: "center",
+    },      
+    legendaBotao: {
+      fontSize: 15,
+      fontWeight: "bold",
+      color: "#FFF",
+      textAlign: "center",
+    },
+
+
+  });
+
+export default styles;
